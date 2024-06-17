@@ -1,0 +1,42 @@
+# PSA_G4_P1
+Repositório do código MATLAB e SIMULINK usado em PSA, na Universidade de Aveiro
+
+---Indicações de execução do código---
+
+1. Abrir "Identification_algorithms" e correr
+
+---Controlo do carrinho---
+1. Abrir "PID_Fuzzy_Sen" e correr. Os resultados podem ser observados através do "Scope".
+2. Abrir "PID_Fuzzy_Step" e correr. Os resultados podem ser observados através do "Scope".
+3. Abrir "PID_Fuzzy_Ramp" e correr. Os resultados podem ser observados através do "Scope".
+
+---Erro relativo ao controlo do carrinho---
+1.Sen
+1.1. Abrir "MSE_Sim_Sine". Abrir "MSE_Sine" e correr. Abrir "MSE_Sine_log" e correr. 
+1.2. Abrir "MAE_Sim_Sine". Abrir "MAE_Sine" e correr. 
+2. Step
+2.1. Abrir "MSE_Sim_Step". Abrir "MSE_Step" e correr. Abrir "MSE_Step_log" e correr. 
+2.2. Abrir "MAE_Sim_Step". Abrir "MAE_Step" e correr. 
+3. Ramp
+3.1 Abrir "MSE_Sim_Ramp". Abrir "MSE_Ramp" e correr. Abrir "MSE_Ramp_log" e correr. 
+3.2 Abrir "MAE_Sim_Ramp". Abrir "MAE_Ramp" e correr. 
+
+---Controlo do pêndulo - função linear---
+1. Abrir "PID_Fuzzy_Linear" e correr. Os resultados podem ser observados através do "Scope", tanto para o PID como para o FLC.
+
+---Controlo do pêndulo - função não-linear---
+1. Abrir "PID_Fuzzy_NaoLinear" e correr. Os resultados podem ser observados através do "Scope", tanto para o PID como para o FLC.
+
+---Desafio proposto pelo docente---
+1. Abrir "Desafio1".
+2. Abrir a opção por baixo de "FS1".
+3. (Caso o desenho CAD do carrinho não apareça) Nas propriedas - geometria - nome do ficheiro - procurar ficheiro na pasta com o nome "Carrinho_PSA_1", abrir e por fim dar "Apply"
+4. Abrir a opção por baixo de "FS2" e repetir os mesmos passos descritos em cima mas para o "Pendulo_PSA_1".
+5. Primir CNTRL + D para compilar o programa. Isto irá abrir uma janela no MATLAB. (Caso não seja possivel, pode simplesmente dar "Run")
+6. Correr o programa.
+
+---Desafio extra---
+1. Abrir "Desafio2".
+2. Primir CNTRL + D para compilar o programa. Isto irá abrir uma janela no MATLAB. (Caso não seja possivel, pode simplesmente dar "Run")
+3. Para pôr o robo direito (pôr o eixo X virado para cima) é necessário rodar o robo com o botão central do rato.
+4. Correr o programa.
